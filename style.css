@@ -94,6 +94,7 @@ a:hover {
   padding: 0px 20px;
   list-style: none;
   padding-left: 0px;
+  font-size: 40px;
 }
 
 .btn-blue {
@@ -111,9 +112,9 @@ a:hover {
 }
 
 .btn-social {
-  font-size: 40;
+  color: #b0a160;
 }
 
 .btn-social:hover {
-  color: #434e52
+  color: #434e52;
 }
