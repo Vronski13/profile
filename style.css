@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300&display=swap');
+
+body {
+  background-color: rgb(245, 245, 245);
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 16;
+  line-height: 1.5;
+}
+
+h1 {
+  color: #434e52;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 50;
+  line-height: 1;
+  letter-spacing: 1.1
+}
+
+h2 {
+  color: #b0a160;
+  font-family:'Open Sans Condensed', sans-serif;
+  font-size: 40;
+  line-height: 1;
+  letter-spacing: 1.1
+}
+
+h3 {
+  color: #5b8c85;
+  font-family:'Open Sans Condensed', sans-serif;
+  font-size: 30;
+  line-height: 1;
+  letter-spacing: 1.1
+}
+
+a {
+  color: #434e52;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5b8c85;
+}
+
+#profil-image {
+  height: 200px;
+  width: 200px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 360px) {
+  .container {
+    width: 250px;
+    margin: 0 auto;
+  }
+}
+
+.card-white {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.btn-blue {
+  background-color: #434e52;
+  color: white;
+  padding: 9;
+  border-radius: 2px;
+}
+
+.btn-blue:hover {
+  background-color: #b0a160;
+  color: #434e52;
+  padding: 9;
+  border-radius: 2px;
+}
