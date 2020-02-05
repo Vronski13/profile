@@ -73,12 +73,6 @@ a:hover {
     margin: 0 auto;
   }
 }
-@media (max-width: 360px) {
-  .container {
-    width: 250px;
-    margin: 0 auto;
-  }
-}
 
 .card-white {
   text-align: center;
