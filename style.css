@@ -109,3 +109,11 @@ a:hover {
   padding: 9;
   border-radius: 2px;
 }
+
+.btn-social {
+  font-size: 16;
+}
+
+.btn-social:hover {
+  color: #434e52
+}
